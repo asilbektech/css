@@ -1,0 +1,99 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=pop);
+
+.font-weight-400 {
+    font-weight: 400;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.heading-1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+}
+.heading-2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.heading-3 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.heading-4 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.heading-5 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.heading-6 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-xl {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-lg {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text-md {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-sm {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text-xs {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(250, 235, 215);
+}
+
+td {
+    border: 2px dotted red;
+}
