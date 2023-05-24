@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: max-content;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0;
+}
+header {
+    display: inline-block;
+
+    height: 59px;
+}
+.group-numbers {
+    padding-left: 58px;
+    margin-bottom: 4px;
+    list-style: none;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 22px;
+    color: #3a1ba2;
+}
+
+.group-numbers li {
+    width: 58px;
+    height: 58px;
+    margin-right: 2px;
+    padding-top: 19px;
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.period-numbers {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.period-numbers li {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 19px;
+}
+
+.column {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.blue .element {
+    background-color: #689bff;
+}
+
+.element {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.element p {
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+.element h3 {
+    font-size: 18px;
+    color: #3a1ba2;
+}
+
+.pink .element {
+    background-color: #fd9a98;
+}
+
+.yellow .element {
+    background-color: #fecb00;
+}
+
+.lanthanoids .element {
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+footer {
+    padding-left: 58px;
+}
+
+h2 {
+    display: inline-block;
+    width: 118px;
+    color: #e74c3c;
+    font-size: 14px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+main {
+    margin-bottom: 10px;
+}
+
+.green .element {
+    background-color: #1fca21;
+}
+
+.actioids .element {
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
