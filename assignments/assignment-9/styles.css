@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     height: 1024px;
     background-color: rgb(200, 210, 218);
     margin: 0 auto;
@@ -14,13 +14,14 @@
 }
 
 nav {
+    width: 100%;
     height: 80px;
     background-color: #808080;
     margin-bottom: 20px;
 }
 
 .top-box-1 {
-    width: 907px;
+    width: calc(((927 * 100) / 1400) * 1% - 20px);
     height: 460px;
     background-color: #808080;
     display: inline-block;
@@ -29,7 +30,7 @@ nav {
 }
 
 .top-box-2 {
-    width: 473px;
+    width: calc(((473 * 100) / 1400) * 1%);
     height: 460px;
     background-color: #808080;
     display: inline-block;
@@ -37,7 +38,7 @@ nav {
 }
 
 .bottom-box-1 {
-    width: 670px;
+    width: calc(((690 * 100) / 1400) * 1% - 20px);
     height: 404px;
     margin-right: 20px;
     background-color: #808080;
@@ -48,18 +49,25 @@ nav {
 
 .bottom-box-2 {
     width: 710px;
+    width: calc(((710 * 100) / 1400) * 1%);
     height: 404px;
     background-color: #808080;
     display: inline-block;
 }
 
-.bottom-inner {
+.bottom-inner1 {
     width: 305px;
+    width: calc(((305 * 100) / 610) * 1% - 20px);
     height: 364px;
     background-color: #d9d9d9;
     display: inline-block;
+    margin-right: 20px;
 }
 
-.inner-margin {
-    margin-right: 20px;
+.bottom-inner2 {
+    width: 305px;
+    width: calc(((305 * 100) / 610) * 1%);
+    height: 364px;
+    background-color: #d9d9d9;
+    display: inline-block;
 }
