@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    max-width: 400px;
+    background-color: aquamarine;
+    margin: 150px auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* .box label input {
+    display: none;
+} */
+
+.box label {
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.box label .circle {
+    height: 40px;
+    width: 40px;
+    border: 5px solid salmon;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -5;
+    transition: color 0.5s ease;
+}
+
+.box label .circle ::before {
+    content: " ";
+    height: 16px;
+    width: 16px;
+    background-color: rgb(215, 134, 28);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.box label span {
+    font-size: 40px;
+    color: deepskyblue;
+    display: inline-block;
+}
+
+.box label input: :checked + .circle {
+}
