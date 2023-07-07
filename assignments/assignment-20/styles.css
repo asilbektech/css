@@ -54,6 +54,3 @@ body {
     color: deepskyblue;
     display: inline-block;
 }
-
-.box label input: :checked + .circle {
-}
